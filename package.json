@@ -19,14 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "now-build": "react-scripts build",
-    "lint": "eslint src"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "plugin:prettier/recommended"
-    ]
+    "now-build": "react-scripts build"
   },
   "browserslist": [
     ">0.2%",
@@ -35,10 +28,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint": "^6.4.0",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2"
   },
   "engines": {
     "node": ">=10.16.0"
