@@ -3,7 +3,7 @@ import styled from 'styled-components';
 //import smile from './smile.svg';
 
 function Main({ onSearch, className }) {
-  const [value, setValue] = useState('');
+//  const [value, setValue] = useState('');
 //  function onChange(e) {
 //    setValue(e.target.value);
 //  }
