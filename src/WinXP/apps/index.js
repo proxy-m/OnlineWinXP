@@ -91,7 +91,7 @@ export const defaultAppState = [
   {
     component: MyComputer,
     header: {
-      title: 'My Computer',
+      title: 'Abstract Computer',
       icon: computer,
     },
     defaultSize: {
@@ -128,7 +128,7 @@ export const defaultIconState = [
   {
     id: 2,
     icon: computerLarge,
-    title: 'My Computer',
+    title: 'Abstract Computer',
     component: MyComputer,
     isFocus: false,
   },
@@ -215,10 +215,10 @@ export const appSettings = {
     maximized: false,
     multiInstance: true,
   },
-  'My Computer': {
+  'Abstract Computer': {
     header: {
       icon: computer,
-      title: 'My Computer',
+      title: 'Abstract Computer',
     },
     component: MyComputer,
     defaultSize: {

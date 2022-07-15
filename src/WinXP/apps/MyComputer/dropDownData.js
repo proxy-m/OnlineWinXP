@@ -284,7 +284,7 @@ const View = [
       },
       {
         type: 'item',
-        text: 'My Computer',
+        text: 'Abstract Computer',
         symbol: 'check',
       },
     ],

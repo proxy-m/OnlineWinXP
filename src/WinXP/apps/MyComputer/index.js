@@ -95,7 +95,7 @@ function MyComputer({ onClose }) {
             alt="ie"
             className="com__address_bar__content__img"
           />
-          <div className="com__address_bar__content__text">My Computer</div>
+          <div className="com__address_bar__content__text">Abstract Computer</div>
           <img
             src={dropdown}
             alt="dropdown"
