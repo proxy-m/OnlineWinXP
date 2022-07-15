@@ -15,10 +15,11 @@ function Main({ onSearch, className }) {
           url = false;
       }
       setValue(/*e.target.value*/ url);
-      console.log(onClick);
+      onClick(); ///
   }
   function onClick() {
-    onSearch(value);
+      console.log(value);
+      ///onSearch(value);
   }
 //  function onKeyDown(e) {
 //    if (e.key !== 'Enter') return;
