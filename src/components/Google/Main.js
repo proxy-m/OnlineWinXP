@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 function Main({ onSearch, className }) {
   const [value, setValue] = useState('');
-  function onChange(t) {
-      var url = '';
+  function onChange(url) {
+      /*var url = '';
       if (!t) {
           return;
       }
@@ -13,7 +13,7 @@ function Main({ onSearch, className }) {
           url = t.contentWindow.location.href;
       } catch (e) {
           url = false;
-      }
+      }*/
       setValue(/*e.target.value*/ url);
       onClick(); ///
   }
