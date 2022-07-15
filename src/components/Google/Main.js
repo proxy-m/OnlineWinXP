@@ -15,7 +15,7 @@ function Main({ onSearch, className }) {
     onSearch(value);
   }
   return (
-    <div className={className}>
+    <div>
       <header>
         <div className="text">Gmail</div>
         <div className="text">Images</div>
@@ -47,7 +47,7 @@ function Main({ onSearch, className }) {
           <button onClick={onClick} id="enter">
             Google Search
           </button>
-          <button>I'm Feeling Lucky</button>
+          <button>I'm Feeling Lucky (PLEASE NOT)</button>
         </div>
       </section>
       <footer>
