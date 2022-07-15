@@ -1,33 +1,32 @@
-import React , { useState } from 'react';
+import React /*, { useState }*/ from 'react';
 import styled from 'styled-components';
 //import smile from './smile.svg';
 
 function Main({ onSearch, className }) {
-  const [value, setValue] = useState('');
-  function onChange(t) {
-      var url = '';
-      if (!t) {
-          return;
-      }
-      try {
-          url = t.contentWindow.location.href;
-      } catch (e) {
-          url = false;
-      }
-      setValue(/*t.target.value*/ url);
-  }
-  function onClick(t) {
-      onChange(t);
-      onSearch(value);
-  }
-
+//  const [value, setValue] = useState('');
+//  function onChange(t) {
+//      var url = '';
+//      if (!t) {
+//          return;
+//      }
+//      try {
+//          url = t.contentWindow.location.href;
+//      } catch (e) {
+//          url = false;
+//      }
+//      setValue(/*t.target.value*/ url);
+//  }
+//  function onClick() {
+//      onSearch(value);
+//  }
+//
 //  function onKeyDown(e) {
 //    if (e.key !== 'Enter') return;
 //    onSearch(value);
 //  }
   return (
     <div>
-      <iframe src="https://bing.com" title="Internet Search" onload={onClick} role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
+      <iframe src="https://bing.com" title="Internet Search" onLoad="try {alert(this.contentWindow.location);} catch (e) {alert('');};" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
       </iframe>
     </div>
   );
