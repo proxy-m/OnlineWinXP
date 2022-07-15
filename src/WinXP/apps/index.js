@@ -30,7 +30,7 @@ export const defaultAppState = [
   {
     component: InternetExplorer,
     header: {
-      title: 'Internet Explorer',
+      title: 'The Chrome Explorer',
       icon: iePaper,
     },
     defaultSize: {
@@ -114,7 +114,7 @@ export const defaultIconState = [
   {
     id: 0,
     icon: ie,
-    title: 'Internet Explorer',
+    title: 'The Chrome Explorer',
     component: InternetExplorer,
     isFocus: false,
   },
@@ -156,10 +156,10 @@ export const defaultIconState = [
 ];
 
 export const appSettings = {
-  'Internet Explorer': {
+  'The Chrome Explorer': {
     header: {
       icon: iePaper,
-      title: 'InternetExplorer',
+      title: 'The InternetExplorer',
     },
     component: InternetExplorer,
     defaultSize: {
