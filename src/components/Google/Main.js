@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import smile from './smile.svg';
+//import smile from './smile.svg';
 
 function Main({ onSearch, className }) {
   const [value, setValue] = useState('');
-  function onChange(e) {
-    setValue(e.target.value);
-  }
-  function onClick() {
-    onSearch(value);
-  }
-  function onKeyDown(e) {
-    if (e.key !== 'Enter') return;
-    onSearch(value);
-  }
+//  function onChange(e) {
+//    setValue(e.target.value);
+//  }
+//  function onClick() {
+//    onSearch(value);
+//  }
+//  function onKeyDown(e) {
+//    if (e.key !== 'Enter') return;
+//    onSearch(value);
+//  }
   return (
     <div>
-      <iframe src="https://duckduckgo.com" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="600px" allow="fullscreen; autoplay;" loading="lazy">
+      <iframe src="https://duckduckgo.com" title="Internet Search" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="600px" allow="fullscreen; autoplay;" loading="lazy">
       </iframe>
     </div>
   );
