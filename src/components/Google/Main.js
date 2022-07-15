@@ -16,7 +16,7 @@ function Main({ onSearch, className }) {
 //  }
   return (
     <div>
-      <iframe src="https://duckduckgo.com" title="Internet Search" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="600px" allow="fullscreen; autoplay;" loading="lazy">
+      <iframe src="https://bing.com" title="Internet Search" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
       </iframe>
     </div>
   );
