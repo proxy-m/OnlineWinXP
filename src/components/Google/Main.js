@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 function Main({ onSearch, className }) {
   const [value, setValue] = useState('');
-  function onChange(url) {
-      /*var url = '';
+  function onChange(t) {
+      var url = '';
       if (!t) {
           return;
       }
@@ -13,17 +13,13 @@ function Main({ onSearch, className }) {
           url = t.contentWindow.location.href;
       } catch (e) {
           url = false;
-      }*/
-      setValue(/*e.target.value*/ url);
-      onClick(); ///
+      }
+      setValue(/*t.target.value*/ url);
   }
-  function onClick() {
-      console.log(value);
-      ///onSearch(value);
+  function onClick(t) {
+      onChange(t);
+      onSearch(value);
   }
-  setTimeout(function () {
-    onChange('https://wikipedia.org');
-  }, 5000);
 
 //  function onKeyDown(e) {
 //    if (e.key !== 'Enter') return;
@@ -31,7 +27,7 @@ function Main({ onSearch, className }) {
 //  }
   return (
     <div>
-      <iframe src="https://bing.com" title="Internet Search" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
+      <iframe src="https://bing.com" title="Internet Search" onload={onClick} role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
       </iframe>
     </div>
   );
