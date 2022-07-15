@@ -21,6 +21,7 @@ function Main({ onSearch, className }) {
       console.log(value);
       ///onSearch(value);
   }
+  onChange(); /////
 //  function onKeyDown(e) {
 //    if (e.key !== 'Enter') return;
 //    onSearch(value);
