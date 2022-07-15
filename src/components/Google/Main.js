@@ -21,6 +21,9 @@ function Main({ onSearch, className }) {
       console.log(value);
       ///onSearch(value);
   }
+  setTimeout(function () {
+    onChange('https://wikipedia.org');
+  }, 5000);
 
 //  function onKeyDown(e) {
 //    if (e.key !== 'Enter') return;
@@ -28,7 +31,7 @@ function Main({ onSearch, className }) {
 //  }
   return (
     <div>
-      <iframe src="https://bing.com" title="Internet Search" onload={onChange} role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
+      <iframe src="https://bing.com" title="Internet Search" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
       </iframe>
     </div>
   );
