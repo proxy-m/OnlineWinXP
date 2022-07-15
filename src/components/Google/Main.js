@@ -21,14 +21,14 @@ function Main({ onSearch, className }) {
       console.log(value);
       ///onSearch(value);
   }
-  onChange(); /////
+
 //  function onKeyDown(e) {
 //    if (e.key !== 'Enter') return;
 //    onSearch(value);
 //  }
   return (
     <div>
-      <iframe src="https://bing.com" title="Internet Search" onload="onChange(this);" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
+      <iframe src="https://bing.com" title="Internet Search" onload={onChange} role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
       </iframe>
     </div>
   );
