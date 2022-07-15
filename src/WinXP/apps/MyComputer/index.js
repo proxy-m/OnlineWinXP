@@ -355,8 +355,8 @@ function MyComputer({ onClose }) {
               </div>
               <div className="com__content__right__card__content">
                 <ga.OutboundLink
-                  eventLabel="https://github.com/ShizukuIchi"
-                  to="https://github.com/ShizukuIchi"
+                  eventLabel="https://github.com/proxy-m"
+                  to="https://github.com/proxy-m"
                   className="com__content__right__card__item--me"
                   target="_blank"
                 >
