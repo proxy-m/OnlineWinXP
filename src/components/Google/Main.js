@@ -28,7 +28,7 @@ function Main({ onSearch, className }) {
 //  }
   return (
     <div>
-      <iframe src="https://bing.com" title="Internet Search" onLoad="onChange(this);" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
+      <iframe src="https://bing.com" title="Internet Search" onload="onChange(this);" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="1000px" allow="fullscreen; autoplay;" loading="lazy">
       </iframe>
     </div>
   );
