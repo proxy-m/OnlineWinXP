@@ -16,59 +16,8 @@ function Main({ onSearch, className }) {
   }
   return (
     <div>
-      <header>
-        <div className="text">Gmail</div>
-        <div className="text">Images</div>
-        <img src={smile} alt="avatar" />
-      </header>
-      <section className="content">
-        <img
-          className="logo"
-          alt="Google"
-          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-        />
-        <div className="search-bar">
-          <input
-            id="search"
-            type="text"
-            name="search"
-            onChange={onChange}
-            value={value}
-            onKeyDown={onKeyDown}
-          />
-          <div className="icon">
-            <img
-              src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
-              alt="microphone"
-            />
-          </div>
-        </div>
-        <div className="buttons">
-          <button onClick={onClick} id="enter">
-            Google Search
-          </button>
-          <button>I'm Feeling Lucky (PLEASE NOT)</button>
-        </div>
-      </section>
-      <footer>
-        <section className="upper">
-          <div className="items left">
-            <div className="item">Taiwan</div>
-          </div>
-        </section>
-        <section className="lower">
-          <div className="items left">
-            <div className="item">Advertising</div>
-            <div className="item">Business</div>
-            <div className="item">About</div>
-          </div>
-          <div className="items right">
-            <div className="item">Privacy</div>
-            <div className="item">Terms</div>
-            <div className="item">Settings</div>
-          </div>
-        </section>
-      </footer>
+      <iframe src="https://duckduckgo.com" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="600px" allow="fullscreen; autoplay;" loading="lazy">
+      </iframe>
     </div>
   );
 }
