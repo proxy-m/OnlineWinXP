@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "author": "ShizukuIchi <shizukuichi@gmail.com>",
-  "homepage": "https://winxp.now.sh",
+  "homepage": "https://wxp.vercel.app",
   "dependencies": {
     "lodash.samplesize": "^4.2.0",
     "react": "^16.8.6",
