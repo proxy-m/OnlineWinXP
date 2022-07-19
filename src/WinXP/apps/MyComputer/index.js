@@ -375,7 +375,7 @@ function MyComputer({ onClose }) {
                 >
                   <img
                     className="com__content__right__card__img"
-                    src="/mivi_studio.jpg"
+                    src="https://i.ibb.co/f88rHYT/mivi-studio.jpg"
                     alt="control"
                   />
                   <div className="com__content__right__card__text">
