@@ -47,7 +47,7 @@ function FooterMenu({ className, onClick }) {
         <hr className="orange-hr" />
         <div className="menu__left">
           <Item onClick={onClick} text="Internet" icon={ie}>
-            <div className="menu__item__subtext">Internet Explorer</div>
+            <div className="menu__item__subtext">The Chrome Explorer</div>
           </Item>
           <Item onClick={onClick} text="E-mail" icon={outlook}>
             <div className="menu__item__subtext">Outlook Express</div>
@@ -129,7 +129,7 @@ function FooterMenu({ className, onClick }) {
             items={[
               { icon: pictures, text: 'My Pictures' },
               { icon: music, text: 'My Music' },
-              { icon: computer, text: 'My Computer' },
+              { icon: computer, text: 'Abstract Computer' },
             ]}
           />
           <div className="menu__separator" />

@@ -95,7 +95,7 @@ function MyComputer({ onClose }) {
             alt="ie"
             className="com__address_bar__content__img"
           />
-          <div className="com__address_bar__content__text">My Computer</div>
+          <div className="com__address_bar__content__text">Abstract Computer</div>
           <img
             src={dropdown}
             alt="dropdown"
@@ -355,8 +355,8 @@ function MyComputer({ onClose }) {
               </div>
               <div className="com__content__right__card__content">
                 <ga.OutboundLink
-                  eventLabel="https://github.com/ShizukuIchi"
-                  to="https://github.com/ShizukuIchi"
+                  eventLabel="https://github.com/proxy-m"
+                  to="https://github.com/proxy-m"
                   className="com__content__right__card__item--me"
                   target="_blank"
                 >
@@ -368,14 +368,14 @@ function MyComputer({ onClose }) {
                   <div className="com__content__right__card__text">Github</div>
                 </ga.OutboundLink>
                 <ga.OutboundLink
-                  eventLabel="https://sh1zuku.csie.io"
-                  to="https://sh1zuku.csie.io"
+                  eventLabel="https://vk.com/mivi_studio"
+                  to="https://vk.com/mivi_studio"
                   className="com__content__right__card__item--me"
                   target="_blank"
                 >
                   <img
                     className="com__content__right__card__img"
-                    src="https://a.ppy.sh/2926513_1448497605.png"
+                    src="https://i.ibb.co/f88rHYT/mivi-studio.jpg"
                     alt="control"
                   />
                   <div className="com__content__right__card__text">

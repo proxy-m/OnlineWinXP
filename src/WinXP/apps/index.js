@@ -30,7 +30,7 @@ export const defaultAppState = [
   {
     component: InternetExplorer,
     header: {
-      title: 'Internet Explorer',
+      title: 'The Chrome Explorer',
       icon: iePaper,
     },
     defaultSize: {
@@ -91,7 +91,7 @@ export const defaultAppState = [
   {
     component: MyComputer,
     header: {
-      title: 'My Computer',
+      title: 'Abstract Computer',
       icon: computer,
     },
     defaultSize: {
@@ -114,7 +114,7 @@ export const defaultIconState = [
   {
     id: 0,
     icon: ie,
-    title: 'Internet Explorer',
+    title: 'The Chrome Explorer',
     component: InternetExplorer,
     isFocus: false,
   },
@@ -128,7 +128,7 @@ export const defaultIconState = [
   {
     id: 2,
     icon: computerLarge,
-    title: 'My Computer',
+    title: 'Abstract Computer',
     component: MyComputer,
     isFocus: false,
   },
@@ -156,10 +156,10 @@ export const defaultIconState = [
 ];
 
 export const appSettings = {
-  'Internet Explorer': {
+  'The Chrome Explorer': {
     header: {
       icon: iePaper,
-      title: 'InternetExplorer',
+      title: 'The InternetExplorer',
     },
     component: InternetExplorer,
     defaultSize: {
@@ -215,10 +215,10 @@ export const appSettings = {
     maximized: false,
     multiInstance: true,
   },
-  'My Computer': {
+  'Abstract Computer': {
     header: {
       icon: computer,
-      title: 'My Computer',
+      title: 'Abstract Computer',
     },
     component: MyComputer,
     defaultSize: {
