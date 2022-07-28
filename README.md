@@ -9,11 +9,11 @@ Features:
 - Minesweeper, Internet Explorer, My Computer, Notepad, Winamp, Paint
 - Power off menu
 
-## [Try it!](https://winxp.now.sh)
+## [Try it!](https://wxp.vercel.app)
 
-Windows XP 👉 https://winxp.now.sh
+Windows XP 👉 https://wxp.vercel.app
 
-[![](demo/demo.gif)](https://winxp.now.sh)
+[![](demo/demo.gif)](https://wxp.vercel.app)
 
 ## Contributing
 
